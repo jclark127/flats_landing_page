@@ -1,0 +1,28 @@
+.logo {
+    width: 50%; /* Adjust the width as needed */
+    height: auto; /* This ensures the aspect ratio is maintained */
+    display: block;
+}
+
+/* Custom button color */
+.btn-primary {
+    background-color: #BC002D; /* Custom button color */
+    border-color: #BC002D; /* Custom border color for the button */
+}
+
+.btn-primary:hover {
+    background-color: #D6336C; /* Lighter shade for hover */
+    border-color: #D6336C;
+}
+
+.btn-primary:disabled, .btn-primary.disabled {
+    background-color: #993344; /* Muted/darker version of the primary color */
+    border-color: #993344;
+    opacity: 0.65; /* Optional: reduces the opacity */
+}
+
+/* Custom background and text color for the entire page */
+body {
+    background-color: black; /* Black background */
+}
+
